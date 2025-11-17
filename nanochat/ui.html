@@ -27,12 +27,34 @@
         .header {
             background-color: #ffffff;
             padding: 1.25rem 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1rem;
         }
 
         .header-left {
             display: flex;
             align-items: center;
             gap: 0.75rem;
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .header-right a {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #2563eb;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+        .header-right a:hover {
+            text-decoration: underline;
         }
 
         .header-logo {
@@ -243,7 +265,11 @@
                     <path d="M5 12h14"></path>
                 </svg>
             </button>
-            <h1>nanochat</h1>
+            <h1>AI研 nanochat(現在は英語のみ対応)</h1>
+        </div>
+
+        <div class="header-right">
+            <a href="https://github.com/HayatoHongo/Everyones_nanoGPT/tree/ja" target="_blank" rel="noopener noreferrer">自分で作れるようになる↗︎</a>
         </div>
     </div>
 

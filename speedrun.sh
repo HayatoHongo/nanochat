@@ -27,6 +27,9 @@ uv sync --extra gpu
 # activate venv so that `python` uses the project's venv instead of system python
 source .venv/bin/activate
 
+# export NANOCHAT_BASE_DIR=/home/ubuntu/nanochat
+# echo $NANOCHAT_BASE_DIR
+
 # -----------------------------------------------------------------------------
 # wandb setup
 # If you wish to use wandb for logging (it's nice!, recommended).
